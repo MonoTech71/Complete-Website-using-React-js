@@ -1,0 +1,151 @@
+*{
+    margin: 0; padding: 0; box-sizing: border-box;  
+}
+
+
+/* Product Home page */
+.p_home{
+    background: url(../../../public/Love_Hair.jpg);
+    height: 86.5vh;
+}
+.p-details{
+    width: 100%;
+    padding-left: 25%;
+    padding: 10% 0 0 25%;
+}
+.p-details h3{
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    word-spacing: 0.5rem;
+}
+.p-details p{
+    color: white;
+}
+
+/* End Product Home page */
+
+/* Product Text */
+.text{
+    background-color: white;
+    height: auto;
+    width: auto;
+    padding:  2rem 15%;
+}
+/* End Product Text */
+
+/* Prodocuts_Details */
+.P_Main{
+    flex-wrap: wrap; 
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.products img{
+    width: 250px;
+}
+.products{
+    background: white;
+    width: 250px;
+    height: fit-content;
+    box-sizing: border-box;
+    border-radius: 1.5rem;
+    box-shadow: 0px 2px 3px 2px #ededed;
+    margin: 1rem;
+}
+.products:hover{
+    box-shadow: 0px 6px 4px 8px #ededed;
+}
+
+.products .sale{
+    margin-left: 10rem;
+    background-color: rgb(219, 132, 132);
+    color: white;
+    font-size: 1rem;
+    padding: 5px;
+    width: 4rem;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: .2s ease;
+}
+.details{
+    padding: 2rem 0rem;
+}
+.icons{
+    color: rgb(219, 132, 132);
+}
+/* End Prodocuts_Details */
+
+/* Banner */
+.banner{
+    display: flex;
+    margin: 5rem;
+    height: 500px;
+}
+.banner img{
+    height: 100%;
+    width: 100%;
+    border-radius: 1rem;
+}
+.banner-details{
+    width: 45%;
+}
+.banner-images{
+    padding-left: 8rem;
+    width: 40%;
+}
+/* End Banner */
+
+/* Single Product Details */
+.single{
+ display: flex;
+ margin: 3rem;
+ gap: 5rem;
+ background-color: white;
+ height: 700px;
+}
+.imagess{
+    width: 50%;
+}
+
+.big-image{
+    height: 500px;
+}
+.big-image img{
+    box-shadow: 0px 10px 8px 10px #ededed;
+    height: 100%;
+    width: 100%;
+}
+.single-page-details{
+    width: 50%;
+}
+.small_images{
+    display: flex;
+    gap: 0.5rem;
+}
+.small_images img{ 
+    width: 24.2%;   
+    opacity: 0.8;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+.small_images img:hover{
+    box-shadow: 0px 4px 2px 4px #ededed;
+    opacity: 1;
+}
+.single-page-details h2{
+    font-size: 3rem;
+}
+
+.single-page-details .price{
+    color: rgb(255, 157, 0);
+}
+
+.single-page-details #select{
+    text-align: center;
+    width: 10rem;
+    height: 2.5rem;
+}
+/* Single Product Details */

@@ -1,0 +1,37 @@
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+h1{
+    font-size: 5rem;
+    font-weight: 600;
+    background-color: white;
+    text-align: center;
+    padding: 2rem;
+}
+.main_container{
+    background: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.main_container .details{
+    background-color: aqua;
+    margin: 3rem;
+    padding: 1rem;
+    width: 23%;
+    border-radius: 10px;
+    transition: 0.5s ease;
+}
+.main_container .details h3, p{
+    padding: 0.3rem;
+}
+.main_container .details img {
+    width: 100%;
+}
+
+.main_container .details:hover{
+    background: rgb(142, 255, 225);
+    box-shadow: 7px 7px 5px lightblue;
+}

@@ -1,0 +1,120 @@
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.contact-container{
+    display: flex;
+    padding: 5rem;
+    background-color: white;
+}
+.contact-title{
+    padding: 130px;
+    text-align: center;
+    font-size: 3rem;
+    background: url(../../../public/titleBG.avif);
+    color: white;
+    background-size: cover;
+}
+
+.left-info{
+    width: 50%;
+}
+.left-info h4{
+    padding-top: 15px;
+}
+.left-info p{
+    padding-top: 10px;
+}
+.left-info span{
+    font-size: 25px;
+    font-weight: 600;
+}
+.right-info{
+    width: 50%;
+}
+.contact-input-box{
+    justify-content: space-between;
+}
+.contact-input-box input{
+    padding: 15px;
+    width: 80%;
+    border-radius: 5px;
+    border: 0.5px solid black;
+}
+.contact-input-box select{
+    padding: 15px;
+    width: 80%;
+    border-radius: 5px;
+    border: 0.5px solid black;
+}
+.contact-input-checkbox{
+    width: 80%;
+}
+.contact-input-checkbox input{
+    margin-top: 15px;
+    width: 20px;
+    height: 20px;
+}
+.contact-input-checkbox span{
+    margin-left: 5px;
+}
+.contact-submit-btn input{
+    display: block;
+    width: 80%;
+    margin-top: 30px;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 3px;
+    border: none;
+    color: rgb(209, 209, 209);
+    background: rgba(63, 114, 76, 0.7);
+}
+
+.contact-submit-btn input:hover{
+    background: rgba(56,204,93,0.7);
+    color: rgb(255,255,255);
+}
+
+.footer{
+    background: black;
+    height: 300px;
+}
+.container-footer{
+    display: flex;
+    padding: 1rem 5rem;
+}
+.logo{
+    width: 33%;
+}
+.logo p{
+    color: white;
+    line-height: 25px;
+    padding: 0 100px;
+}
+.contact p{
+    color: white;
+    line-height: 25px;
+    padding: 0 100px;
+}
+.footer .icons{
+    font-size: 30px;
+    color: white;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.footer .icons :hover{
+    color: orange;
+}
+
+.copy-right{
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 2px;
+    padding-top: 20px;
+}
